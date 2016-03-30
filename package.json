@@ -1,0 +1,25 @@
+{
+  "name": "testability-proto-2",
+  "scripts": {
+    "test": "tape ./test/**/*.js",
+    "coverage": "istanbul cover tape -- ./test/**/*.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Gustavo Ortiz",
+    "email": "gustavo.ortiz.monroy@gmail.com",
+    "url": "http://medium.com/@codingpains"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.6.1",
+    "mongodb": "^2.1.11"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.1",
+    "fake-mongo": "git+ssh://git@github.com/VoxFeed/fake-mongo.git",
+    "istanbul": "^0.4.2",
+    "proxyquire": "^1.7.4",
+    "tape": "^4.2.0"
+  }
+}
